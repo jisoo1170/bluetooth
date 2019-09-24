@@ -30,7 +30,6 @@ BLE 디바이스들을 sniff, jam, hijack 할 때 필요한 모든 것을 제공
 $ btlejack -i
 ~~~
 
-![1568851459019](C:\Users\윤소희 팀장\AppData\Roaming\Typora\typora-user-images\1568851459019.png)
 
 
 
@@ -42,7 +41,6 @@ $ btlejack -i
 $ btlejack -s
 ~~~
 
-![1568780540328](C:\Users\윤소희 팀장\AppData\Roaming\Typora\typora-user-images\1568780540328.png)
 
 
 
@@ -52,11 +50,9 @@ $ btlejack -s
 $ btlejack -f 주소
 ~~~
 
-![1569207101975](C:\Users\윤소희 팀장\AppData\Roaming\Typora\typora-user-images\1569207101975.png)
 
 
 
-> ![1568772146653](C:\Users\윤소희 팀장\AppData\Roaming\Typora\typora-user-images\1568772146653.png)
 >
 > 이정도에서 더 이상 안넘어 가는 경우는 패킷 암호 해독을 구현하지 않아서 암호화 된 LL_CONNECTION_UPDATE_REQ를 포착 할 수 없기 때문이다.
 >
@@ -72,7 +68,6 @@ $ btlejack -f 주소
 $ btlejack -c any
 ~~~
 
-![1568781602567](C:\Users\윤소희 팀장\AppData\Roaming\Typora\typora-user-images\1568781602567.png)
 
 
 
@@ -82,7 +77,6 @@ $ btlejack -c any
 $ btlejack -c 주소
 ~~~
 
-![1568856688722](C:\Users\윤소희 팀장\AppData\Roaming\Typora\typora-user-images\1568856688722.png)
 
 
 
@@ -104,11 +98,9 @@ $ btlejack -f 0x9c68fd30 -t -m 0x1fffffffff
 
 > 액세스 주소와 채널 맵을 순서대로 입력하면 된다.
 
-![1569215763005](C:\Users\윤소희 팀장\AppData\Roaming\Typora\typora-user-images\1569215763005.png)
 
 위 상태에서 조금 더 기다리면 hijacking된 내용이 나온다.
 
-![1569216694451](C:\Users\윤소희 팀장\AppData\Roaming\Typora\typora-user-images\1569216694451.png)
 
 
 
